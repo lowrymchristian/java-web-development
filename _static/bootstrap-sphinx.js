@@ -101,7 +101,8 @@
         $content.css("min-height", $sideBar.outerHeight(true));
       }
 
-      $sideBar.Affix({
+      $sideBar
+        .Affix({
           offset: {
             top: function () {
               var offsetTop      = $sideBar.offset().top;
